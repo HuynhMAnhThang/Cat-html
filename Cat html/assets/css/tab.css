@@ -1,0 +1,44 @@
+@import"tabTaiLieu.css";
+@import"tabDuongDan.css";
+.Card-home {
+  background: #fff;
+  width: 1248px;
+  height: 450px;
+  margin: 50px auto;
+  border: 1px solid #dadbdc;
+  box-sizing: border-box;
+}
+.Card-home .Tab-nav {
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+.Tab-nav .tablinks i{
+padding: 0 5px;
+}
+.Tab-nav .tablinks {
+  height: 65px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: var(--font-size);
+  flex: 1;
+  font-weight: 500;
+}
+
+.Tab-nav .tablinks.active {
+  border-bottom: 3px solid var(--text-color-all);
+  color: var(--text-color-all);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  margin: 0 auto;
+}
+.fonts{
+  font-size: var(--font-size-ChuY);
+}

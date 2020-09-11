@@ -1,0 +1,16 @@
+@import"choosesFile.css";
+#TaiLieu{
+    display: block;
+  }
+  
+  .tabcontent i{
+  font-size: 5em;
+  color: var(--text-color-all);
+  margin-top: 43px;
+  
+  }
+.ChuY{
+    margin-top: 45px;
+    text-align: center; 
+    line-height:40px
+}

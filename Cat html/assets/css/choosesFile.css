@@ -1,0 +1,29 @@
+.Chooses_file{
+  color: var(--white-color);
+  outline: none;
+  width: 201px;
+}
+.Chooses_file::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.Chooses_file::before {
+  content: 'Chọn tài liệu từ máy tính';
+  display: inline-block;
+  background: #fff;
+  color: var(--text-color-all);
+  border: 1px solid  var(--text-color-all);
+  border-radius: 5px;
+  padding: 6px 12px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 20px;
+ 
+}
+.Chooses_file:hover::before {
+  border-color:var(--text-color-all); 
+   background: var(--text-color-all); 
+   color: var(--white-color);
+}

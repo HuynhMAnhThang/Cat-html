@@ -1,0 +1,19 @@
+@import"main.css";
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color-black:#333;
+    --text-color-all: #248fcb;
+    --font-size:24px;
+    --font-size-ChuY:16px;
+    --font-size-rep-tab:16px;
+
+}
+*{
+    box-sizing: inherit;
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+}
+#body{
+background: #F4F8FB;
+}

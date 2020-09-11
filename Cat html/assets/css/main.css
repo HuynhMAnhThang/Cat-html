@@ -1,0 +1,51 @@
+@import"tab.css";
+@import"reponsive.css";
+.header {
+  height: 64px;
+  background: var(--white-color);
+  box-shadow: 0px 0px 10px 1px aquamarine;
+}
+.header p {
+  font-size: 20px;
+  color: var(--text-color-all);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  align-self: center;
+  margin:0;
+}
+.flexRight {
+  margin-right: 18px;
+}
+.Home-certify {
+  text-decoration: none;
+  align-self: center;
+  color: #666;
+}
+.Home-certify:hover {
+  color: var(--text-color-all);
+}
+.huongdan {
+  padding: 0 18px;
+}
+.huongdan span,
+i {
+  font-size: 14px;
+}
+
+.image-logo {
+  width: 108px;
+  height: 20px;
+  margin-top: -4px;
+}
+
+.footer {
+  height: 74px;
+  background: var(--white-color);
+  position: fixed;
+  bottom: 0;
+}
+.footer span {
+  font-size: 16px;
+  align-self: center;
+  margin: 0 auto;
+}

@@ -1,0 +1,50 @@
+/* Mobile <740px */
+@media only screen and (max-width: 739px) {
+  .Home-certify {
+    display: none;
+  }
+  .Card-home{
+    width: 90%;  
+  }
+  .fonts{
+      text-align: justify;
+      margin: 0 10px;
+      line-height: 20px;
+      font-size: 14px;
+  }
+  .Tab-nav .tablinks{
+    font-size: var(--font-size-rep-tab);
+    height: 50px;
+  }
+  .ChuY{
+    margin-top: 30px;
+  }
+ #msgError{
+    font-size: 15px;
+  }
+  .Chooses_file{
+    width: 101px;
+  }
+  .Chooses_file::before {
+    content: 'Tải tài liệu';
+   
+  }
+  .footer span {
+    font-size: 14px;
+  }
+  .textMariginTop{
+    margin-top: 50px;
+  }
+}
+
+/* Tablet >=740px and <1024px */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .Card-home{
+        width: 90%;  
+      }
+}
+
+/* PC >=1024px */
+@media only screen and (min-width: 1024px) {
+  
+}

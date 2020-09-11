@@ -1,0 +1,32 @@
+.TextCenter {
+  text-align: center;
+}
+#msgError{
+    color: red;
+    font-size: 18px;
+    margin: 10px 0 0 0;
+    position: absolute;
+    right: 0;
+}
+.input-Content {
+  height: 40px;
+  margin: 55px 50px 0 50px;
+  position: relative;
+}
+.input-Content .form-control {
+  width: 100%;
+  padding: 6px 45px 6px 15px;
+}
+.icon-search {
+  text-decoration: none;
+  position: absolute;
+  top: -37px;
+  right: 8px;
+  background: none;
+  border: none;
+
+}
+
+.textMariginTop{
+margin-top: 50px;
+}

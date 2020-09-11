@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="body">
+    <!-- HEADER -->
+        <div class="header container-fluid d-flex justify-content-between">
+            <p>Dịch vụ chứng thực tài liệu điện tử</p>
+            <div id="Rignht" class="d-flex flexRight">
+                <a href="#" class="Home-certify huongdan" style="text-decoration: none;">
+                    <i class="fa fa-question-circle-o huongdan-icon"></i>
+                    <span class="huongdan-icon">Hướng dẫn</span>
+                </a>
+                <a href="#" class="Home-certify logo">
+                    <img src="../assets/img/Logo.png" class="image-logo" alt="">
+                </a>
+            </div>
+        </div>
+    <!-- MAIN -->
+    <main>
+        <div class="Card-home">
+
+            <div class="Tab-nav">
+                <button class="tablinks active" onclick="openTab(event, 'TaiLieu')"><i class="fa fa-file-pdf-o"></i>Tài
+                    liệu</button>
+                <button class="tablinks" onclick="openTab(event, 'DuongDan')"><i class="fa fa-link"></i>Đường
+                    dẫn</button>
+            </div>
+
+            <div id="TaiLieu" class="tabcontent">
+                <i class="fa fa-file-pdf-o d-flex justify-content-center"></i>
+
+                <p class="ChuY fonts">Hiện tại máy chủ hỗ trợ chứng thực các tài liệu định dạng PDF. Vui lòng thực hiện
+                    chọn
+                    tài liệu PDF từ máy tính của bạn và thực hiện tải tài liệu lên
+                    <br>Máy chủ thục hiện chứng thực và gửi về kết quả cho bạn. Dịch vụ chỉ lưu lại kết quả chứng
+                    thực,không thực hiện lưu tài liệu</p>
+                <div class="upload d-flex justify-content-center">
+                    <input type="file" class="Chooses_file">
+                </div>
+            </div>
+
+            <div id="DuongDan" class="tabcontent">
+                <div class="d-flex flex-column justify-content-center">
+                    <i class="fa fa-internet-explorer d-flex justify-content-center"></i>
+                    <div class="input-Content">
+                        <button style="outline:transparent;" class="icon-search" onclick="Submit()"><i class="fa fa-search " style="font-size: 24px"></i></button>
+                        <input type="text"  class="form-control" placeholder="Đường dẫn tài liệu ví dụ: http://example.com/tailieu.pdf">
+                         <span id="msgError"></span>
+                    </div>
+                   
+                    
+                    <p class="TextCenter fonts textMariginTop">Dịch vụ thực chứng thực tài liệu điện tử PDF đã được chia sẻ trên
+                        internet và lưu lại thông tin kết quả chứng thực, không thực hiện lưu tài liệu của bạn</p>
+                </div>
+            </div>
+        </div>
+    </main>
+        <div class="footer d-flex container-fluid">
+            <span>Copyright <i class="fa fa-copyright"></i> 2020 SigningHub. Deverloped by SAVIS</span>
+        </div>
+
+
+
+<script src="../assets/js/validate.js"></script>
+    <script src="../assets/js/tab.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+</body>
+
+</html>
