@@ -1,6 +1,7 @@
 @import"tab.css";
 @import"reponsive.css";
 .header {
+  width: 100vw;
   height: 64px;
   background: var(--white-color);
   box-shadow: 0px 0px 10px 1px aquamarine;
